@@ -6,3 +6,7 @@ SBTP`Simple Bytes Transfer Protocol`はUARTなどのバイトベースのスト�
 - シンプル
 - 255byteまで転送可能
 
+## フォーマット
+```
+| SOF | Data Length | Payload | CRC | EOF |
+```
